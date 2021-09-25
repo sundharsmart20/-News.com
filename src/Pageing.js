@@ -50,7 +50,7 @@ const Pageing=(props)=>{
 				
 					
 			}
-			<a class="card-text"  className="newss" href="/Home" ><b class="text-muted">Back&#8592;</b></a>
+			<a class="card-text"  className="newss" href="/" ><b class="text-muted">Back&#8592;</b></a>
 		</div>
 		)
 
