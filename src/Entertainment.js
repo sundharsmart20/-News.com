@@ -103,10 +103,7 @@ function backToTop() {
 				})
 					
 				}
-				
-			
-		</div>
-		<button
+				<button
 			type="button"
 			class="btn btn-danger btn-floating btn-lg"
 			id="btn-back-to-top"
@@ -115,6 +112,9 @@ function backToTop() {
 		  &#8593;	
 		</button>
 			
+			
+		</div>
+		
 		</div>
 		)
 }
