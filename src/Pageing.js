@@ -34,12 +34,12 @@ const Pageing=(props)=>{
     					</div>
 						<div class="col-md-8">
 						  <div class="card-body">
-						   <b> <p style={{fontSize:'20px'}} class="card-text">{p[0].indexing.title}</p> </b> <br/>
+						   <b> <p style={{fontSize:'21px'}} class="card-text">{p[0].indexing.title}</p> </b> <br/>
 						   
 						  </div>
-						  &nbsp;&nbsp;&nbsp; <p  style={{fontSize:'40px'}}  class="card-text">{p[0].indexing.content.split("[")[0]}</p>
+						   <p  style={{fontSize:'21px'}}  class="card-text">{(p[0].indexing.content===null) ? null :  p[0].indexing.content.split("[")[0]}</p>
 
-						   &nbsp;&nbsp; <p style={{fontSize:'30px'}} class="card-text">{p[0].indexing.description}</p>
+						    <p style={{fontSize:'21px'}} class="card-text">{p[0].indexing.description}</p>
 						   <a target="_blank" href={p[0].indexing.url}>read More</a>
 						</div>
 
