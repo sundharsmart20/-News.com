@@ -31,7 +31,6 @@ const Entertainment=(props)=>{
 	}
 let mybutton = document.getElementById("btn-back-to-top");
 
-// When the user scrolls down 20px from the top of the document, show the button
 window.onscroll = function () {
   scrollFunction();
 };
@@ -105,16 +104,17 @@ function backToTop() {
 					
 				}
 				
-					<button
-			        type="button"
-			        class="btn btn-danger btn-floating btn-lg"
-			        id="btn-back-to-top"
-			        onClick={backToTop}
-			        >
-			  &#8593;	
-			</button>
 			
 		</div>
+		<button
+			type="button"
+			class="btn btn-danger btn-floating btn-lg"
+			id="btn-back-to-top"
+			onClick={backToTop}
+			>
+		  &#8593;	
+		</button>
+			
 		</div>
 		)
 }
